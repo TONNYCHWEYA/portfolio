@@ -140,3 +140,8 @@ line-height: 29px;
 #Screenshot{
 width: 80%;
 }
+.nexticon{
+  display: flex;
+  justify-content: space-between;
+
+}
