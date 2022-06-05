@@ -1,0 +1,142 @@
+*{
+  color: #E5E5E5;
+  background-color: rgba(27, 25, 25, 0.959);
+}
+.navList{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+  overflow: hidden;
+ 
+}
+.navList>li{
+  float: left;
+}
+.navList>li>a{
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  color: #E5E5E5;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+}
+.navContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.homeContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+}
+.homeContent>p>span{
+  color: #FBFF46;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons{
+  gap: 70px;
+}
+.button{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.color{
+  background-color: #FBFF46;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+}
+.input{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#screenshot{
+  width: 30%;
+}
+.header{
+  margin-bottom: 200px;
+}
+.aboutContainer>h2{
+  color: #FBFF46;
+  
+}
+.bio{
+  background-color: #D9D9D9;
+  width: 50%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.bio>.container>button{
+  flex-grow: 2;
+  padding: 10px;
+  background-color: #D9D9D9;
+  color: black;
+
+}
+.aboutContainer{
+  margin-bottom: 200px;
+}
+.input>input{
+  background-color: #D9D9D9;
+  color: black;
+  margin-bottom: 10px;
+  padding-right: 60px;
+}
+#message{
+  padding-bottom: 100px;
+  padding-right: 200px;
+}
+.colortext{
+  color: #FBFF46;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+}
+.description{
+  margin-top: 200px;
+  font-size: 20px;
+}
+
+#social{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#portfolio{
+  background-color: #D9D9D9;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#portfolio>div>p{
+  font-size: 24px;
+  background-color: #D9D9D9;
+  color: black;
+  border-radius: 10px;
+  overflow: hidden;
+}
+#Screenshot{
+width: 80%;
+}

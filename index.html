@@ -5,38 +5,43 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
+  <script src="https://kit.fontawesome.com/f29496d53e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assests/css/index.css">
 </head>
 <body>
-  <div>
-    <div>
+  <div class="header"> 
+    <div class="navContainer">
       <nav>
-        <ul>
-          <li>HOME</li>
-          <li>ABOUT ME</li>
-          <li>PORTFOLIO</li>
-          <li>CONTACTS</li>
+        <ul class="navList">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT ME</a></li>
+          <li><a href="#">PORTFOLIO</a></li>
+          <li><a href="#">CONTACTS</a></li>
         </ul>
       </nav>
     </div>
-    <p>Hello, I am</p>
-    <p>TONNY CHWEYA</p>
-    <p>a full stack developer.</p>
-    <img src="">
-    <button>contact Me</button>
-    <div>
-      <i></i>
-      <i></i>
-      <i></i>
-      <i></i>
+    <div class="homeContent">
+    <p>Hello, I am<br>
+      <span>TONNY CHWEYA</span><br>
+       a full stack developer.
+      </p>
+    </div>
+    <div class="container image"><img  src="./assests/img/pic.jpeg"></div>
+    <div class="container button"><button class="color">contact Me</button></div>
+    <div class="container icons">
+      <i class="fa-brands fa-twitter fa-4x " style="color:#FBFF46;"></i>
+      <i class="fa-brands fa-facebook-square fa-4x" style="color:#FBFF46;"></i>
+      <i class="fa-brands fa-instagram fa-4x" style="color:#FBFF46;"></i>
+      <i class="fa-brands fa-whatsapp fa-4x" style="color:#FBFF46;"></i>
     </div>
   </div>
 
 
 
-  <div>
-    <h2>ABOUT ME</h2>
-    <div>
-      <div>
+  <div class="aboutContainer">
+    <h2 class="container">ABOUT ME</h2>
+    <div class="bio class="container">
+      <div class="container">
         <button>Bio</button>
         <button>What to expect</button>
         <button>Technology Used</button>
@@ -46,24 +51,40 @@
   </div>
 
 
+  <h2 class="container">Portfolio</h2>
+<div id="portfolio">
+  
 
-<div>
-  <h2>Portfolio</h2>
-<div>
-  <h3>Moringa landing page</h3>
-  <img src="">
-  <h3></h3>
-</div>
-<div>
-  <i></i>
-  <i></i>
+  <h3 class="container">Moringa landing page</h3>
+  <div id="imageCon" class="container "><img id="Screenshot" src="./assests/img/Screenshot.png"></div>
+  <h3>Description</h3>
+  <p>The above project is Moringa landing page. It showcases what the school offer. I developed it using html, javascript and css. It took two days to create.</p>
+
+<div class="">
+  <i class="fa-solid fa-backward-step" style="color: #FBFF46;"></i>
+  <i class="fa-solid fa-forward-step" style="color: #FBFF46;"></i>
 </div>
 </div>
 
 
-<div>
-  <h2>Contact me</h2>
-  <p>To work with me you can reach me via</p>
+<div class="description">
+  <h2 class="container colortext">Contact me</h2>
+  <p class="container">To work with me you can reach me via</p>
+  <li class="container colortext">Email</li>
+ <div class="input">
+ <input  type="text" id="name" name="name" value="Name">
+ <input type="email" id="email" name="email" value="Email"><br>
+ <input type="text" id="subject" name="subject" value="Subject"><br>
+ <input type="text" id="message" name="message" value="compose message"><br>
+ </div>
+<div class="container"><button class="color">Send</button></div>
+  <li id="social" class="container colortext">Other socials</li>
+  <div class ="container icons">
+    <i class="fa-brands fa-twitter fa-4x " style="color:#FBFF46;"></i>
+    <i class="fa-brands fa-facebook-square fa-4x" style="color:#FBFF46;"></i>
+    <i class="fa-brands fa-instagram fa-4x" style="color:#FBFF46;"></i>
+    <i class="fa-brands fa-whatsapp fa-4x" style="color:#FBFF46;"></i>
+  </div>
 </div>
 </body>
 </html>
